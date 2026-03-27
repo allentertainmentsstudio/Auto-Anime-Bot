@@ -13,23 +13,23 @@ class Var:
     BOT_TOKEN = getenv("BOT_TOKEN")
     DB_URI = getenv("DB_URI")
     DB_NAME = getenv("DB_NAME")
-    BAN_SUPPORT = getenv("BAN_SUPPORT", "https://t.me/about_zani")
+    BAN_SUPPORT = getenv("BAN_SUPPORT", "https://t.me/log_channel_a")
     FSUB_LINK_EXPIRY = int(getenv("FSUB_LINK_EXPIRY", "120"))
     CHANNEL_ID = int(getenv("CHANNEL_ID", "0"))
-    MHCHANNEL_URL = getenv("MHCHANNEL_URL", "https://t.me/+t0weAQsq_-1lYmJl")
+    MHCHANNEL_URL = getenv("MHCHANNEL_URL", "https://t.me/log_channel_a")
     ANIME = getenv("ANIME", "Is It Wr2131ong to Try to Pi123ck Up Girls in a Dungeon?")
     CUSTOM_BANNER = getenv("CUSTOM_BANNER", "https://ibb.co/5xjBCXKp")
 
     PROTECT_CONTENT = True if getenv('PROTECT_CONTENT', "False") == "True" else False 
-    BACKUP_CHANNEL = int(getenv("BACKUP_CHANNEL", "-1002876087585"))
-    LOG_CHANNEL = int(getenv("LOG_CHANNEL", "-1003174074383"))
-    MAIN_CHANNEL = int(getenv("MAIN_CHANNEL", "-1002812370717"))
-    FILE_STORE = int(getenv("FILE_STORE", "-1002334590710"))
-    ADMINS = list(map(int, getenv("ADMINS", "5756495153").split()))
+    BACKUP_CHANNEL = int(getenv("BACKUP_CHANNEL", "-1003758676689"))
+    LOG_CHANNEL = int(getenv("LOG_CHANNEL", "-1003515041061"))
+    MAIN_CHANNEL = int(getenv("MAIN_CHANNEL", "-1003515041061"))
+    FILE_STORE = int(getenv("FILE_STORE", "-1003758676689"))
+    ADMINS = list(map(int, getenv("ADMINS", "7892805795").split()))
 
     RSS_ITEMS = getenv("RSS_ITEMS", "").split()
     SEND_SCHEDULE = getenv("SEND_SCHEDULE", "True").lower() == "true"
-    BRAND_UNAME = getenv("BRAND_UNAME", "@cantarellabots")
+    BRAND_UNAME = getenv("BRAND_UNAME", "@anujedits76")
 
     FFCODE_1080 = getenv("FFCODE_1080")
     FFCODE_720 = getenv("FFCODE_720")
