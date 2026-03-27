@@ -16,7 +16,7 @@ class Var:
     BAN_SUPPORT = getenv("BAN_SUPPORT", "https://t.me/log_channel_a")
     FSUB_LINK_EXPIRY = int(getenv("FSUB_LINK_EXPIRY", "120"))
     CHANNEL_ID = int(getenv("CHANNEL_ID", "-1003515041061"))
-    MHCHANNEL_URL = getenv("MHCHANNEL_URL", "https://t.me/log_channel_a")
+    MHCHANNEL_URL = getenv("MHCHANNEL_URL", "https://t.me/+m9cYPWGqttk2ZTU1")
     ANIME = getenv("ANIME", "Is It Wr2131ong to Try to Pi123ck Up Girls in a Dungeon?")
     CUSTOM_BANNER = getenv("CUSTOM_BANNER", "https://ibb.co/5xjBCXKp")
 
@@ -25,9 +25,9 @@ class Var:
     LOG_CHANNEL = int(getenv("LOG_CHANNEL", "-1003515041061"))
     MAIN_CHANNEL = int(getenv("MAIN_CHANNEL", "-1003515041061"))
     FILE_STORE = int(getenv("FILE_STORE", "-1003758676689"))
-    ADMINS = list(map(int, getenv("ADMINS", "7892805795").split()))
+    ADMINS = list(map(int, getenv("ADMINS", "7168219724").split()))
 
-    RSS_ITEMS = getenv("RSS_ITEMS", "").split()
+    RSS_ITEMS = getenv("RSS_ITEMS", "https://subsplease.org/rss/?r=1080").split()
     SEND_SCHEDULE = getenv("SEND_SCHEDULE", "True").lower() == "true"
     BRAND_UNAME = getenv("BRAND_UNAME", "@anujedits76")
 
